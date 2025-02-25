@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khóa học lập trình</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        text-align: left;
+    }
+    header {
+        background-color: white;
+        color: rgb(186, 62, 40);
+        padding: 10px 20px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+    header h1 {
+        margin: 0;
+        padding: 0;
+    }
+    .course-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, max-content));
+        gap: 40px;
+        max-width: auto;
+        margin: 20px;
+    }
+    .course-card {
+        background: white;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .course-card img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    .course-card h2 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    .course-card p {
+        font-size: 14px;
+        margin: 5px 0;
+        color: #555
+    }
+    .course-card icon {
+        color: rgb(142, 60, 45);
+        margin-right: 5px;
+    }
+</style>
+<body>
+    <header>
+        <h1>KHÓA HỌC SẮP KHAI GIẢNG</h1>
+    </header>
+    <section class="course-container">
+        <div class="course-card">
+            <img src="/anh/ltrinh vien qte.png" alt="Lập trình viên quốc tế">
+            <h2>LẬP TRÌNH VIÊN QUỐC TẾ</h2>
+            <p>Chương trình đào tạo chuẩn quốc tế và toàn diện. Phù hợp với học sinh tốt nghiệp THPT, sinh viên và người định hướng theo nghề lập trình chuyên nghiệp.</p>
+            <p><icon><i class="fa-solid fa-clock"></i></icon> Học bổng: 15.000.000 VNĐ</p>
+            <p><icon><i class="fa-solid fa-gift"></i></icon> Khai giảng: 2/2024</p>
+            <p><icon><i class="fa-solid fa-bookmark"></i></icon> Thời lượng: 2 - 2.5 năm</p>
+        </div>
+        <div class="course-card">
+            <img src="/anh/ltrinh web full.png" alt="Lập trình Web Fullstack">
+            <h2>LẬP TRÌNH WEB FULLSTACK</h2>
+            <p>Khóa học phù hợp với người bắt đầu lập trình hoặc người chuyển nghề. Trang bị từ frontend đến backend, xây dựng website hoàn chỉnh sau khóa học.</p>
+            <p><icon><i class="fa-solid fa-clock"></i></icon> Ưu đãi giảm 15% học phí</p>
+            <p><icon><i class="fa-solid fa-gift"></i></icon> Khai giảng: 2/2024</p>
+            <p><icon><i class="fa-solid fa-bookmark"></i></icon> Thời lượng: 6 tháng</p>
+        </div>
+        <div class="course-card">
+            <img src="/anh/java.png" alt="Lập trình java fullstack">
+            <h2>LẬP TRÌNH JAVA FULLSTACK</h2>
+            <p>Phát triển ứng dụng web từ cơ bản đến nâng cao bằng Java, các ứng dụng doanh nghiệp sử dụng J2EE, Servlet, JSP, Spring Framework, EJB,...</p>
+            <p><icon><i class="fa-solid fa-clock"></i></icon> Ưu đãi giảm 15% học phí</p>
+            <p><icon><i class="fa-solid fa-gift"></i></icon> Khai giảng: 2/2024</p>
+            <p><icon><i class="fa-solid fa-bookmark"></i></icon> Thời lượng: 236 giờ</p>
+        </div>
+        <div class="course-card">
+            <img src="/anh/php.png" alt="Lập trình PHP & LARAVEL">
+            <h2>LẬP TRÌNH PHP & LARAVEL</h2>
+            <p>PHP là một trong các ngôn ngữ thiết kế web mạnh nhất. Khóa học trang bị kỹ năng xây dựng web hoàn chỉnh sử dụng PHP kết hợp Laravel Framework.</p>
+            <p><icon><i class="fa-solid fa-clock"></i></icon> Khai giảng: 5/2/2024</p>
+            <p><icon><i class="fa-solid fa-gift"></i></icon> Học phí 9.600.000 VNĐ</p>
+            <p><icon><i class="fa-solid fa-bookmark"></i></icon> Thời lượng: 36 giờ</p>
+        </div>
+        <div class="course-card">
+            <img src="/anh/ltrinh.net.png" alt="Khóa học lập trình .net">
+            <h2>KHÓA HỌC LẬP TRÌNH .NET</h2>
+            <p>Phát triển ứng dụng web sử dụng nền tảng ASP.NET Core MVC. Để học tốt khóa học yêu cầu học viên đã có kiến thức C# và Frontend.</p>
+            <p><icon><i class="fa-solid fa-clock"></i></icon> Khai giảng: 2/2024</p>
+            <p><icon><i class="fa-solid fa-gift"></i></icon> Thời lượng: 40 giờ</p>
+            <p><icon><i class="fa-solid fa-bookmark"></i></icon> Học phí 6.000.000 VNĐ</p>
+        </div>
+        <div class="course-card">
+            <img src="/anh/sql.png" alt="Lập trình sql server">
+            <h2>LẬP TRÌNH SQL SERVERSERVER</h2>
+            <p>Trang bị những kiến thức nền tảng vững chắc về SQL Server như các kỹ thuật: lọc dữ liệu, phân tích, thiết kế và quản trị cơ sở dữ liệu,...</p>
+            <p><icon><i class="fa-solid fa-clock"></i></icon> Khai giảng: 2/2024</p>
+            <p><icon><i class="fa-solid fa-gift"></i></icon> Học phí 4.500.000 VNĐ</p>
+            <p><icon><i class="fa-solid fa-bookmark"></i></icon> Thời lượng: 30 giờ</p>
+        </div>
+    </section>
+</body>
+</html>
